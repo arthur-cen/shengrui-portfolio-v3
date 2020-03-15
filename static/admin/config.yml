@@ -1,6 +1,6 @@
 backend:
-  name: shengrui-portfolio-v3-repo
-
+  name: github
+  repo: arthur-cen/shengrui-portfolio-v3
 media_folder: static/assets
 public_folder: /assets
 
