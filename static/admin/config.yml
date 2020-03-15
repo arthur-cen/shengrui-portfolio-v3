@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: shengrui-portfolio-v3-repo
 
 media_folder: static/assets
 public_folder: /assets
