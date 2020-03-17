@@ -1,4 +1,4 @@
 import React from "react"
-import LoginPage from "./LoginPage/LoginPage"
+import LoginPage from "../pages-components/LoginPage/LoginPage"
 
 export default () => <LoginPage />
