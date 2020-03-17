@@ -41,9 +41,9 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
       alias: {
-        components: path.resolve(__dirname, 'src/components'),
-        views: path.resolve(__dirname, 'src/views'),
-        assets: path.resolve(__dirname, 'src/assets'),
+        components: path.resolve(__dirname, "src/components"),
+        views: path.resolve(__dirname, "src/views"),
+        assets: path.resolve(__dirname, "src/assets"),
       },
     },
   })

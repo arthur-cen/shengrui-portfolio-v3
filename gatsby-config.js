@@ -7,6 +7,11 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
+    "gatsby-plugin-resolve-src",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-offline",
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -14,25 +19,19 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
-    `gatsby-plugin-material-ui`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        fonts: [
-          {
-            family: `Roboto Slab`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: `Roboto`,
-            subsets: [`latin`]
-          },
-          {
-            family: `Material Icons`
-          }
-        ],
+        name: "gatsby-starter-default",
+        short_name: "starter",
+        start_url: "/",
+        background_color: "#663399",
+        theme_color: "#663399",
+        display: "minimal-ui",
+        icon: "src/assets/img/favicon.png", // This path is relative to the root of the site.
       },
     },
+    //plugin for markdown
     `gatsby-transformer-remark`,
   ],
 }
