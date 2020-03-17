@@ -1,3 +1,4 @@
 import React from "react"
+import LandingPage from "views/LandingPage/LandingPage.js";
 
-export default () => <div>Hello world!</div>
+export default () => <LandingPage/>

@@ -14,6 +14,25 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    `gatsby-plugin-material-ui`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Slab`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`]
+          },
+          {
+            family: `Material Icons`
+          }
+        ],
+      },
+    },
     `gatsby-transformer-remark`,
   ],
 }
