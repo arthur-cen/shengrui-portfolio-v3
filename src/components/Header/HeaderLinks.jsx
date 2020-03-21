@@ -56,38 +56,24 @@ function HeaderLinks({ ...props }) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
           <Button
             href={resumeData.socialLinks.github}
             target="_blank"
             color="transparent"
             className={classes.navLink}
           >
-            <FaGithub/>
+            <FaGithub/> {window.innerWidth > 959 ? "" : "@arthur-cen"}
           </Button>
-        </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
           <Button
             color="transparent"
             href={resumeData.socialLinks.linkedin}
             target="_blank"
             className={classes.navLink}
           >
-            <FaLinkedin/>
+            <FaLinkedin/> {window.innerWidth > 959 ? "" : "Shengrui Cen"}
           </Button>
-        </Tooltip>
       </ListItem>
       {/* <ListItem className={classes.listItem}>
         <Tooltip

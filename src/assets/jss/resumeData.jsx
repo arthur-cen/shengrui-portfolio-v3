@@ -71,29 +71,33 @@ let resumeData = {
         "name":"BeerBox",
         "id": "beerbox",
         "description":"A scavenger hunt uses IoT functionality to connect a series of challenges across the CMU campus. Winner gets beer.",
-        "imgurl":"images/beerBox.jpeg",
-        "projectUrl": "projects/project001/post.md.js"
+        "imgurl":"static/assets/projects/beerBox.jpeg",
+        "projectUrl": "projects/project001/post.md.js",
+        "featured": false,
       },
       {
         "name": "Quote",
         "id": "quote_bookcase",
         "description": "An IoT bookcase that show you the quote from your favorite book.",
-        "imgurl": "images/quote.jpeg",
-        "projectUrl": "projects/project002/post.md.js"
+        "imgurl": "static/assets/projects/quote.jpeg",
+        "projectUrl": "projects/project002/post.md.js",
+        "featured": true,
       },
       {
         "name":"Smart Sort Kiosk",
         "id": "smart_sort_kiosk",
         "description":"A Smart Trash Bin Kiosk categorizes trash using CV based Artificial Intelligence. ",
-        "imgurl":"images/smartSortKiosk.png",
-        "projectUrl": "projects/project003/post.md.js"
+        "imgurl":"static/assets/projects/smartSortKiosk.png",
+        "projectUrl": "projects/project003/post.md.js",
+        "featured": true,
       },
       {
         "name":"OmniRecycle",
         "id": "omnirecycle",
         "description":"An IoT device",
-        "imgurl":"images/OmniRecycle.png",
-        "projectUrl": "projects/project004/post.md.js"
+        "imgurl":"static/assets/projects/OmniRecycle.png",
+        "projectUrl": "projects/project004/post.md.js",
+        "featured": true,
       },
       // {
       //   "name":"Test",

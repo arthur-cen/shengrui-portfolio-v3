@@ -44,6 +44,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         components: path.resolve(__dirname, "src/components"),
         views: path.resolve(__dirname, "src/views"),
         assets: path.resolve(__dirname, "src/assets"),
+        static: path.resolve(__dirname, "static"),
       },
     },
   })

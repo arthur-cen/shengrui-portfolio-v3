@@ -18,8 +18,8 @@ import GridItem from "components/Grid/GridItem.jsx"
 import HeaderLinks from "components/Header/HeaderLinks.jsx"
 // import NavPills from "components/NavPills/NavPills.jsx"
 import Parallax from "components/Parallax/Parallax.jsx"
-
-import profile from "assets/img/faces/arthur.jpeg"
+import SectionCarousel from "./Sections/SectionCarousel.jsx"
+import profile from "assets/img/faces/arthur.jpg"
 
 // import studio1 from "assets/img/examples/studio-1.jpg"
 // import studio2 from "assets/img/examples/studio-2.jpg"
@@ -34,7 +34,6 @@ import profile from "assets/img/faces/arthur.jpeg"
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx"
 import resumeData from "assets/jss/resumeData.jsx"
-
 class ProfilePage extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -90,6 +89,7 @@ class ProfilePage extends React.Component {
                   {resumeData.roleDescription}
                 </p>
               </div>
+              <SectionCarousel />
               {/* <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                   <NavPills
