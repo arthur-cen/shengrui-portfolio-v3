@@ -4,13 +4,14 @@ import React from "react";
 import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-import { List, ListItem, withStyles } from "@material-ui/core";
-
+import { withStyles } from "@material-ui/core";
+// import { List, ListItem } from "@material-ui/core";
+ 
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+// import Favorite from "@material-ui/icons/Favorite";
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
-
+import resumeData from "assets/jss/resumeData.jsx";
 function Footer({ ...props }) {
   const { classes, whiteFont } = props;
   const footerClasses = classNames({
@@ -25,7 +26,7 @@ function Footer({ ...props }) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-          <List className={classes.list}>
+          {/* <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/"
@@ -62,19 +63,30 @@ function Footer({ ...props }) {
                 Licenses
               </a>
             </ListItem>
-          </List>
+          </List> */}
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , built by {" "}
           <a
-            href="https://www.creative-tim.com"
+            href={resumeData.socialLinks.linkedin}
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+            Arthur Cen
+          </a>
+          {" "} with {" "}
+          <a
+            href={"https://www.gatsbyjs.com"}
+            className={aClasses}
+            target="_blank">
+            GatsbyJS
+          </a>
+          {" "} and {" "}
+          <a
+            href={"https://demos.creative-tim.com/material-kit-react/#/"}
+            className={aClasses}
+            target="_blank">
+            Material UI</a>
         </div>
       </div>
     </footer>
