@@ -1,54 +1,62 @@
 ---
 path: projects/quote_smartbookcase
-date: 2020-03-28T20:16:43.845Z
+date: 2019-12-15T21:16:43.845Z
 thumbnail: /assets/quote.jpg
 title: 'Quote: A Smart Bookcase knows you'
 ---
-#### Problem Statement / Co-Design
-___
+## Problem Statement / Co-Design
+
+- - -
 
 Sarah is 30 years old female working as a Physician Assistant at the UPMC Shadyside, Pittsburgh. She lives by herself with two cats. Although she has a successful career and loves her life, she always misses her mom who lives in a different city. She becomes even more sentimental when she goes back to her dark home. She loves to read because she has a good memory with her mom reading books before she went to bed every night when she was young. She wishes that there’s a product that helps her delightful childhood memory when she read every night.
 
-#### Stakeholder
-___
+## Stakeholder
+
+- - -
 
 After we interviewed with Sarah, we defined our potential stakeholders as below;
 
-- Primary stakeholders are young professionals who live in big cities away from their families
-- Secondary stakeholders are parents or love ones of primary stakeholders, booksellers and furniture makers 
-- Key stakeholders are funders, book authors, publishers, medias
+* Primary stakeholders are young professionals who live in big cities away from their families
+* Secondary stakeholders are parents or love ones of primary stakeholders, booksellers and furniture makers 
+* Key stakeholders are funders, book authors, publishers, medias
 
-#### Design Approach
-___
+## Design Approach
+
+- - -
 
 Our team wants to make sure that Sarah feels homey when she relaxes at her house after spending long hours at the hospital. She is physically and mentally exhausted and wanted to feel eased while she is reading her favorite books at home. Also, she wants to feel connected with her mom away back home. 
 
-#### Design Decision and Solution
-___
+## Design Decision and Solution
+
+- - -
 
 Our team decided to make an ambient bookcase that is connected to other devices, the same bookcase. Once one side of the user picks a book to read from the bookcase, the other side of the device displays the same title and quote. Two devices are connected in distance and help two or many parties to feel more connected to each other by reading the same books because they have something in common to share together. 
 
-#### Storyboard and Initial Sketch
-___
+## Storyboard and Initial Sketch
 
-![storyboard]()
+- - -
 
-![initial_sketch](${initial_sketch})
+![storyboard](/assets/storyboard.png)
 
-#### System Design Concept
-___
+![initial_sketch](/assets/initial_sketch.png)
+
+## System Design Concept
+
+- - -
 
 Two and more users are interconnected with each other with the particle cloud system.  We want our bookcase helping us connect with the people in our lives and build intimate relationships by sharing common knowledge of reading books.  
 
-![flow](${flow})
+![flow](/assets/flow.png)
 
-#### Final Prototype
-___
+## Final Prototype
 
-<img src="${prototype}" alt="prototype" style="width: 300px" align="middle"/>
+- - -
 
-#### Component and Supplies
-___
+![](/assets/quote_prototype.jpeg)
+
+## Component and Supplies
+
+- - -
 
 1. Particle Argon with headers
 2. USB Micro B Cable
@@ -64,8 +72,9 @@ ___
 12. LED lights
 13. 2 x 4.75kΩ resistors and 3 x 1kΩ resistor
 
-#### Development Procedure
-___
+## Development Procedure
+
+- - -
 
 1. Co-design with a friend
 2. Design the logic system of program
@@ -77,8 +86,9 @@ ___
 8. Connect a breadboard with wires.
 9. Test out the entire system.  
 
-#### User Test
-___
+## User Test
+
+- - -
 
 Sarah tested the sample and shared her experience with our team. She liked the sample overall and suggested one major improvement - changing sensors. Although she liked our first proto a lot, she did not like the way that she has to pay extra attention when she returns the books to the bookcase. She asked us if we can eliminate pedals and replace them with different sensors. In that sense, she does not have to worry about putting the books back to exact spots to land the books on the pedals.
 
@@ -86,18 +96,21 @@ We foresee her feedback and will iterate the sensors and the design accordingly.
 
 We also found that the LED screen displayed symbols or alphabets instead of illuminating full sentences of quotations during the demonstration. After we disconnect the powers and plugin, it worked, but we will debug code error and fix the malfunctioning screen.
 
-#### Circuit diagram
-___
+## Circuit diagram
 
-![circuit](${circuit})
+- - -
 
-#### Video Demo
-___
+![circuit](/assets/circuit.jpg)
+
+## Video Demo
+
+- - -
 
 https://youtu.be/0PYfpzE6e-U
 
-#### Next Step
-___
+## Next Step
+
+- - -
 
 Our major improvement in this project would be data storage and share. We initially designed the product want our friend to store her memorable quote in the cloud system and erase the data if she wants to update it with new quotes. However, we found the opportunity that the user would feel more connected and attached to the bookcase if they can keep all their memory in the server.  The improved design scenario is attached below.  
 
@@ -109,10 +122,11 @@ We also want to improve LED screens to be more of an enchant and ambient like "m
 
 A commercializing bookcase by partnering with book publishers can be an option. Our bookcase can store famous Harry Porter Series or The Hardy Boys Series as gift options for children.  
 
-![story](${story})
+![story](/assets/story.jpg)
 
-#### Team Project Reflection
-___
+## Team Project Reflection
+
+- - -
 
 As part of this group project, we were assigned the task of creating a group presentation in which we would design one of our friends about a chosen IoT topic. My group was able to build and present a successful presentation by building a smart bookcase that connected to a cloud system, creating a prototype, and iterating the sample based on the user test. 
 
@@ -124,9 +138,10 @@ Next time, we all hope to be flexible with each other's ideas to determine what 
 
 It was a great learning experience.
 
-#### Colaborators
-___
+## Colaborators
 
-- Arthur Cen
-- Tarika Jain
-- Hannah Moon
+- - -
+
+* Arthur Cen
+* Tarika Jain
+* Hannah Moon
