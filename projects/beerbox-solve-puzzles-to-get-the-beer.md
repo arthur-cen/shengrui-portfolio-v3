@@ -2,8 +2,14 @@
 path: projects/beerBox
 date: 2019-12-22T05:00:00.000Z
 thumbnail: /assets/beerbox.jpg
-title: 'BeerBox: Solve puzzles to get the beer!'
+title: BeerBox
 ---
+# BeerBox: Solve puzzles to get the beer!
+
+
+
+
+
 ## Intention
 
 - - -
