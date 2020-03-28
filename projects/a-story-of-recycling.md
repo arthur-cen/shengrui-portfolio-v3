@@ -16,12 +16,11 @@ The OmniRecycle project started when I was working on an AI project. When I fini
 
 OmniRecycle is designed to create a simple and pleasant experience of recycling.The flowchart shows the basic workflow of how trash get categorized.
 
-The workflow of OmniRecycle When you put trash in the sorting platform, the sensor will detect that there is trash on the platform and the camera module will be evoked to take a photo of the trash on the platform. Then, the AI module will run the classification algorithm on the picture taken, and classify the type of trash. Based on the category of the waste, the motor control will turn the platform into the correct direction to drop the trash into the bin. The whole process is done automatically and painlessly.
-Cardboard Prototype Demo
+The workflow of OmniRecycle When you put trash in the sorting platform, the sensor will detect that there is trash on the platform and the camera module will be evoked to take a photo of the trash on the platform. Then, the AI module will run the classification algorithm on the picture taken, and classify the type of trash. Based on the category of the waste, the motor control will turn the platform into the correct direction to drop the trash into the bin. The whole process is done automatically and painlessly. Cardboard Prototype Demo
 
 #### A proof of concept demo for OmniRecycle
 
-![](/assets/prototype.jpeg)
+![lo-fi-prototype](/assets/prototype.jpeg)
 
 #### Product Launch Roadmap
 
