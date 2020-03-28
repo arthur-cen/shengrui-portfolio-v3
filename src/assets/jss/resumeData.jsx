@@ -96,7 +96,7 @@ let resumeData = {
         "id": "omnirecycle",
         "description":"An IoT device",
         "imgurl":"static/assets/projects/OmniRecycle.png",
-        "projectUrl": "projects/project004/post.md.js",
+        "projectUrl": "projects/omnirecycle",
         "featured": true,
       },
       // {

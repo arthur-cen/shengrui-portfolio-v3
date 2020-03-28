@@ -12,7 +12,7 @@ collections:
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
-      - {name: "thumbnail", label: "Featured Image", widget: "image"}
+      - { name: thumbnail, label: Featured Image, widget: image}
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }    
 
