@@ -7,10 +7,11 @@ import { Link } from "gatsby";
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import Tooltip from "@material-ui/core/Tooltip";
+// import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { CloudDownload } from "@material-ui/icons";
+// import { Apps } from "@material-ui/icons";
 
 // React icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -40,7 +41,7 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          // buttonIcon={Apps}
           dropdownList={listContent}
         />
       </ListItem>

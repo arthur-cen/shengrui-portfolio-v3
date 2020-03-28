@@ -13,7 +13,6 @@ import Parallax from "components/Parallax/Parallax.jsx"
 
 import projectPageStyle from "assets/jss/material-kit-react/views/projectPage.jsx"
 import resumeData from "assets/jss/resumeData.jsx"
-import { Link } from "@material-ui/core"
 // import { ThemeProvider } from "@material-ui/styles"
 // const theme = createMuiTheme({
 //   typography: {
@@ -47,7 +46,6 @@ class Template extends React.Component {
           color="transparent"
           brand={resumeData.name}
           rightLinks={<HeaderLinks />}
-          leftLinks={<Link to={'#'}/>}
           fixed
           changeColorOnScroll={{
             height: 200,
@@ -63,7 +61,7 @@ class Template extends React.Component {
               <GridItem xs={12} sm={12} md={6} className={classes.markdownGrid}>
                 <div>
                     <div className="blog-post">
-                    <h1 className>{frontmatter.title}</h1>
+                    <h1>{frontmatter.title}</h1>
                     <h2>{frontmatter.date}</h2>
                     <div
                       className="blog-post-content"
