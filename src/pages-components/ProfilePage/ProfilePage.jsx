@@ -34,6 +34,7 @@ import profile from "assets/img/faces/arthur.jpg"
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx"
 import resumeData from "assets/jss/resumeData.jsx"
+import { Link } from "@material-ui/core"
 class ProfilePage extends React.Component {
   render() {
     const { classes, ...rest } = this.props
@@ -49,6 +50,7 @@ class ProfilePage extends React.Component {
           color="transparent"
           brand={resumeData.name}
           rightLinks={<HeaderLinks />}
+          leftLinks={<Link to={'#'}/>}
           fixed
           changeColorOnScroll={{
             height: 200,
@@ -56,7 +58,7 @@ class ProfilePage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/profile-bg.jpeg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>

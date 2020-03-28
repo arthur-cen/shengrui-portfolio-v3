@@ -5,12 +5,14 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: project
+    label: Project
+    folder: projects
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
+      - {name: "thumbnail", label: "Featured Image", widget: "image"}
       - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: body, label: Body, widget: markdown }    
+
