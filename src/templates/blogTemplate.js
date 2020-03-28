@@ -13,7 +13,7 @@ import Parallax from "components/Parallax/Parallax.jsx"
 
 import projectPageStyle from "assets/jss/material-kit-react/views/projectPage.jsx"
 import resumeData from "assets/jss/resumeData.jsx"
-import { Link, createMuiTheme, CssBaseline } from "@material-ui/core"
+import { Link } from "@material-ui/core"
 // import { ThemeProvider } from "@material-ui/styles"
 // const theme = createMuiTheme({
 //   typography: {

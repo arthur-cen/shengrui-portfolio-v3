@@ -3,8 +3,7 @@ import React from "react"
 import Carousel from "react-slick"
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles"
-// @material-ui/icons
-import FavoriteIcon from '@material-ui/icons/Favorite';
+
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
