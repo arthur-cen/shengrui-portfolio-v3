@@ -72,7 +72,7 @@ let resumeData = {
         "id": "beerbox",
         "description":"A scavenger hunt uses IoT functionality to connect a series of challenges across the CMU campus. Winner gets beer.",
         "imgurl":"static/assets/projects/beerBox.jpeg",
-        "projectUrl": "projects/project001/post.md.js",
+        "projectUrl": "projects/beerbox",
         "featured": false,
       },
       {
@@ -80,7 +80,7 @@ let resumeData = {
         "id": "quote_bookcase",
         "description": "An IoT bookcase that show you the quote from your favorite book.",
         "imgurl": "static/assets/projects/quote.jpeg",
-        "projectUrl": "projects/project002/post.md.js",
+        "projectUrl": "projects/quote_smartbookcase",
         "featured": true,
       },
       {
@@ -88,7 +88,7 @@ let resumeData = {
         "id": "smart_sort_kiosk",
         "description":"A Smart Trash Bin Kiosk categorizes trash using CV based Artificial Intelligence. ",
         "imgurl":"static/assets/projects/smartSortKiosk.png",
-        "projectUrl": "projects/project003/post.md.js",
+        "projectUrl": "projects/smarkSortKiosk",
         "featured": true,
       },
       {
