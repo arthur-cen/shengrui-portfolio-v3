@@ -63,7 +63,7 @@ function HeaderLinks({ ...props }) {
             color="transparent"
             className={classes.navLink}
           >
-            <FaGithub/> {window.innerWidth > 959 ? "" : "@arthur-cen"}
+            <FaGithub/> {/*window.innerWidth > 959 ? "" : "@arthur-cen"*/}
           </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -73,7 +73,7 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             className={classes.navLink}
           >
-            <FaLinkedin/> {window.innerWidth > 959 ? "" : "Shengrui Cen"}
+            <FaLinkedin/> {/*window.innerWidth > 959 ? "" : "Shengrui Cen"*/}
           </Button>
       </ListItem>
       {/* <ListItem className={classes.listItem}>
