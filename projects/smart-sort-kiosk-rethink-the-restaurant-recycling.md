@@ -4,6 +4,8 @@ date: 2019-11-20T05:00:00.000Z
 thumbnail: /assets/smart_sort.jpg
 title: 'Smart Sort Kiosk: Rethink the restaurant recycling'
 ---
+> This project is the Stage 1 for my Smart Trashbin Project Series. Check out [OmniRecycle](/projects/omnirecycle) for Stage 2.
+
 ## Background:
 
 - - -
