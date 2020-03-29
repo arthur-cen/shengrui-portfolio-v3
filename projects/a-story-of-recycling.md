@@ -4,26 +4,27 @@ date: 2020-03-07T04:08:38.301Z
 thumbnail: /assets/smart_sort.jpg
 title: A Story of Recycling
 ---
- A Story of Recycling
-
 Have you ever wonder which recycling bin should you use? With a paper coffee cup in your hand and standing in front of a huge recycling bin and wondering which compartment the cap goes and which hole should the cup go. Ever since the responsibility of recycling falling on consumers’ shoulders, it is never easy to do the job on a daily basis. There are too much trash to deal with and there’s no simple way to be environmentally friendly! You just not want to think every single time you want to get rid of anything. But you have to because you might not want to be the one to be blamed when you throw a recyclable can in the trash. Sadly, with all of these voices in your mind, you still do not know where to throw this paper cup away. When you laid your eyes on OmniRecycle, you know that your days of confusing recycling is over. This is going to relieve your mind from recycling forever.
 
-## The Background
+### The Background
 ---
 
 The OmniRecycle project started when I was working on an AI project. When I finished my meal in a local sushi restaurant, I found that the employee of the restaurant mixed up the recyclables and the trash altogether. It just frustrated me because being an environmental advocate, I still did not want to give away to the convenience of using paper bowls and plastic lids. It was frustrating to see all my recycling effort went in vain when all the trash is mixed up. Thinking about the opportunities to improve this, I asked the question: can I make machines to do the recycling for me? That’s how I started my work on a smart trash bin. It turned out that with a simple image recognition model, the AI-equipped camera can be more reliable than humans to do trash classification.
 
-#### Concept Description
+### Concept Description
+---
 
 OmniRecycle is designed to create a simple and pleasant experience of recycling.The flowchart shows the basic workflow of how trash get categorized.
 
 The workflow of OmniRecycle When you put trash in the sorting platform, the sensor will detect that there is trash on the platform and the camera module will be evoked to take a photo of the trash on the platform. Then, the AI module will run the classification algorithm on the picture taken, and classify the type of trash. Based on the category of the waste, the motor control will turn the platform into the correct direction to drop the trash into the bin. The whole process is done automatically and painlessly. Cardboard Prototype Demo
 
-#### A proof of concept demo for OmniRecycle
+### A proof of concept demo for OmniRecycle
+---
 
 ![lo-fi-prototype](/assets/prototype.jpeg)
 
-#### Product Launch Roadmap
+### Product Launch Roadmap
+---
 
 To launch this product to the market, here is my plan for launching.
 

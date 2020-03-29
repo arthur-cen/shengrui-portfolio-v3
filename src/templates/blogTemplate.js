@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import classNames from "classnames"
 import Parallax from "components/Parallax/Parallax.jsx"
-
+import Markdown from "components/Project/Markdown.jsx"
 import projectPageStyle from "assets/jss/material-kit-react/views/projectPage.jsx"
 import resumeData from "assets/jss/resumeData.jsx"
 // import { ThemeProvider } from "@material-ui/styles"
@@ -59,16 +59,12 @@ class Template extends React.Component {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6} className={classes.markdownGrid}>
-                <div>
-                    <div className="blog-post">
-                    <h1>{frontmatter.title}</h1>
-                    <h2>{frontmatter.date}</h2>
-                    <div
-                      className="blog-post-content"
-                      dangerouslySetInnerHTML={{ __html: html }}
-                      />
+                  <div>
+                    <h1 className={classes.title}>{frontmatter.title}</h1>
+                      <Markdown>
+                        {html}
+                      </Markdown>
                   </div>
-                </div>
               </GridItem>
             </GridContainer>
           </div>
