@@ -60,7 +60,10 @@ const projectStyle = {
     textAlign: "center !important",
   },
   ...imagesStyle,
-  title,
+  title: {
+    ...title,
+    margin: "1.75rem 0 5.88rem"
+  },
   main: {
     background: "#FFFFFF",
     position: "relative",

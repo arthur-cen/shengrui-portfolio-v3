@@ -7,9 +7,15 @@ import { ThemeProvider } from '@material-ui/styles';
 import { title } from "assets/jss/material-kit-react.jsx"
 import Quote from "components/Typography/Quote.jsx"
 import markdownStyle from "assets/jss/material-kit-react/views/componentsSections/markdownStyle.jsx"
+
 const Image = styled.img`
-  width: ${props => props.width};
+  max-height:30rem;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 1rem;
 `
+
 const Pre = styled.pre`
   display: block;
   padding: 9.5px;
@@ -56,13 +62,19 @@ const options = {
     blockquote: { component: Quote, props: { component: 'blockquote'}},
     p: { component: Typography, props: { component: 'p', variant: "body1"} },
     a: { component: Link },
-    img: { component: Image, props: {width: '100%'} },
     pre: { component: Pre},
     li: {
       component: withStyles(markdownStyle)(({ classes, ...props }) => (
         <li className={classes.listItem}>
           <Typography component="span" {...props} variant="body1"/>
         </li>
+      )),
+    },
+    img: {
+      component: withStyles(markdownStyle)(({ classes, ...props }) => (
+        <div className={classes.imgDiv}>
+          <Image {...props}/>
+        </div>
       )),
     },
   },
