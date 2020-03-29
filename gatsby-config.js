@@ -5,6 +5,13 @@
  */
 
 module.exports = {
+  siteMetadata:{
+    title: "Shengrui's website",
+    description:
+      "The personal website and portfolios of Shengrui Cen.",
+    url: "https://www.shengruicen.com", // No trailing slash allowed!
+    // image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+  },
   plugins: [
     `gatsby-plugin-netlify-cms`,
     "gatsby-plugin-resolve-src",
