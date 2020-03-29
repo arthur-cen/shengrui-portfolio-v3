@@ -1,4 +1,10 @@
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx"
+import typographyStyle from "assets/jss/material-kit-react/components/typographyStyle.jsx";
+const {quote,
+    quoteText,
+    quoteAuthor,
+    defaultFontStyle
+} = typographyStyle
 
 const markdownStyle = (theme) => ({
     listItem: {
@@ -8,7 +14,11 @@ const markdownStyle = (theme) => ({
     imgDiv: {
         textAlign: "center"
     },
-    ...imagesStyle
+    ...imagesStyle,
+    quote,
+    quoteText,
+    quoteAuthor,
+    defaultFontStyle
 })
 
 export default markdownStyle

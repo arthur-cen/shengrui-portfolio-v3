@@ -5,7 +5,7 @@ import { Typography, Link, createMuiTheme } from '@material-ui/core';
 import styled from 'styled-components'
 import { ThemeProvider } from '@material-ui/styles';
 import { title } from "assets/jss/material-kit-react.jsx"
-import Quote from "components/Typography/Quote.jsx"
+import classNames from "classnames"
 import markdownStyle from "assets/jss/material-kit-react/views/componentsSections/markdownStyle.jsx"
 
 const Image = styled.img`
@@ -59,7 +59,6 @@ const options = {
     h4: { component: Typography, props: { variant: 'h4' } },
     h5: { component: Typography, props: { variant: 'h5' } },
     h6: { component: Typography, props: { variant: 'h6' } },
-    blockquote: { component: Quote, props: { component: 'blockquote'}},
     p: { component: Typography, props: { component: 'p', variant: "body1"} },
     a: { component: Link },
     pre: { component: Pre},
@@ -77,6 +76,13 @@ const options = {
         </div>
       )),
     },
+    blockquote: {
+    component: withStyles(markdownStyle)(({ classes, ...props }) => (
+      <Typography  component="blockquote">
+        <p {...props} className={classNames(classes.quote, classes.defaultFontStyle)}></p>
+      </Typography>
+      )),
+    }
   },
 };
 

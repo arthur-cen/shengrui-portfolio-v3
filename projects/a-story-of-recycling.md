@@ -4,6 +4,8 @@ date: 2020-03-07T04:08:38.301Z
 thumbnail: /assets/smart_sort.jpg
 title: A Story of Recycling
 ---
+> This project is the Stage 1 for my Smart Trashbin Project Series. Check out OmniRecycle for Stage 2.
+
 Have you ever wonder which recycling bin should you use? With a paper coffee cup in your hand and standing in front of a huge recycling bin and wondering which compartment the cap goes and which hole should the cup go. Ever since the responsibility of recycling falling on consumers’ shoulders, it is never easy to do the job on a daily basis. There are too much trash to deal with and there’s no simple way to be environmentally friendly! You just not want to think every single time you want to get rid of anything. But you have to because you might not want to be the one to be blamed when you throw a recyclable can in the trash. Sadly, with all of these voices in your mind, you still do not know where to throw this paper cup away. When you laid your eyes on OmniRecycle, you know that your days of confusing recycling is over. This is going to relieve your mind from recycling forever.
 
 ### The Background
