@@ -23,7 +23,7 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 import resumeData from "assets/jss/resumeData.jsx";
-import resumeDownload from "assets/pdf/Cen_Resume_Mar_v1.pdf"
+import resumeDownload from "assets/pdf/Cen_Resume.pdf"
 
 function HeaderLinks({ ...props }) {
   const { classes } = props;
