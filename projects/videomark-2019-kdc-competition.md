@@ -1,5 +1,5 @@
 ---
-path: videomark
+path: /projects/videomark
 date: 2021-03-16T18:39:16.924Z
 thumbnail: /assets/videomark_1.png
 title: "VideoMark: 2019 KDC Competition"
