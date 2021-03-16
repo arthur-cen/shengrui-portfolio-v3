@@ -99,6 +99,14 @@ let resumeData = {
         "projectUrl": "projects/omnirecycle",
         "featured": true,
       },
+      {
+        "name":"VideoMark",
+        "id": "videomark",
+        "description":"2019 KDC Competition",
+        "imgurl":"static/assets/projects/videomark_1.png",
+        "projectUrl": "projects/videomark",
+        "featured": true,
+      },
       // {
       //   "name":"Test",
       //   "id": "test project",
